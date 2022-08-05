@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
 }
+
 /* Custom Colors for style */
 .bg-sky-blue {
   background-color: #289bde;
@@ -49,4 +51,32 @@ body {
   color: #289bde;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
+
+/* Responsive code */
+
+@media (max-width: 576px) {
+    .header-caption {
+      top: 5%;
+      right: 2%;
+      left: 2%;
+      /* diplay: flex;
+      justify-content: center;
+      align-items: center; */
+    }
+    .header-caption h1 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .header-caption p {
+      font-size: 10px;
+      font-weight: 200;
+    }
+    .header-caption button {
+      font-size: 14px;
+    }
+  }
