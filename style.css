@@ -15,7 +15,7 @@ body {
   background-color: rgba(44, 161, 228, 0.1);
 }
 .color-lighter-gray {
-  color: #f4f4f4;
+  color: #aaaaaa;
 }
 .color-white {
   color: #fff;
@@ -33,9 +33,9 @@ body {
 .max-width-text {
   max-width: 500px;
 }
-/* .register-now {
+.register-now {
   background: white;
-} */
+}
 .social-links a {
   color: white;
   transition: all 0.3s ease;
