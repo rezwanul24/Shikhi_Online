@@ -8,12 +8,15 @@ body {
   font-size: 18px;
   padding: 10px 15px;
 }
-.color-sky-blue {
-  color: #289bde;
-}
+
 .background-light-blue {
-  background-color: rgba(44, 161, 228, 0.1);
+    background-color: rgba(44, 161, 228, 0.1);
+  }
+
+.color-sky-blue {
+  color: #099df3;
 }
+
 .color-lighter-gray {
   color: #aaaaaa;
 }
@@ -33,9 +36,7 @@ body {
 .max-width-text {
   max-width: 500px;
 }
-.register-now {
-  background: white;
-}
+
 .social-links a {
   color: white;
   transition: all 0.3s ease;
